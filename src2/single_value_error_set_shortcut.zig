@@ -1,0 +1,1 @@
+const err = error.FileNotFound;

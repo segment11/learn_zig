@@ -1,0 +1,3 @@
+test "safety check" {
+    unreachable;
+}

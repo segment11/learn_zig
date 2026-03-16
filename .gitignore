@@ -1,0 +1,4 @@
+/.idea
+/.zig-cache
+/src2/.zig-cache
+/src2/*.o

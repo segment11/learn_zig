@@ -1,0 +1,8 @@
+comptime {
+    const number = getNumberOrFail() catch unreachable;
+    _ = number;
+}
+
+fn getNumberOrFail() !i32 {
+    return error.UnableToReturnNumber;
+}
